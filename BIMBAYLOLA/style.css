@@ -1,0 +1,718 @@
+body{
+  width: 100%;
+  overflow: auto;
+ 
+}
+
+
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .marquee-content {
+    display: flex;
+    animation: marquee 30s linear infinite;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+        
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+#headerbar{
+  display: flex;
+    width: 100%;
+    overflow-y: unset;
+    position: relative;
+    justify-content: space-evenly;
+  }
+
+#navbarheader{
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+justify-content: space-around;
+
+}
+
+
+  #navbar1{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: space-evenly;
+    margin-right: 10px;
+            
+    }
+#boxlogo{
+  margin-bottom: -20px;
+}
+
+#logo{
+  height: 40px;
+  padding-left: 30px;
+    justify-content: left;
+    text-align: left;
+    align-items: left;}
+
+nav,ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+}
+nav .submenu li a{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: left;
+    width: 250px;
+}
+.firstline{
+    justify-content: center;
+    text-align: center;
+}
+.menu li a{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
+       
+}
+.menu li a:hover{
+    text-decoration: underline;
+}
+nav li ul{
+    display: none;
+    position:absolute;
+    
+}
+
+nav li:hover > ul{
+    display: block;
+    text-align: left;
+    justify-content: left;
+    padding: 0px;
+    
+}
+#iconos{
+display: flex;
+ justify-content:right;
+  align-items: right;
+  text-align: right;
+  padding-right: 10px;
+  margin-bottom: 0px;
+  position: relative;
+  right: 0;
+  }
+
+#lupa{
+     width: 30px;
+        }
+#cuenta{
+      width: 30px;}
+   #cesta{
+      width: 30px;
+   }
+
+.xmas{
+    color: red;
+}
+
+#xmas{
+  color: red;
+}
+#xmas li a{
+    color: red;
+}
+
+#caroline{
+  padding-top: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+
+#regalos{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 60px;
+  background-color: white;
+  width: fit-content;
+  padding: 0px 6px 2px 0px;
+  margin-top: -10px;
+  
+}
+#holiday{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-style: italic;
+  background-color: white;
+  padding: 0px 5px 0px 5px;
+  text-align: center;
+  width:fit-content;
+  margin: -40px 100px 0px 100px;
+  position: absolute;
+  
+  
+
+}
+#holidayregaloscontainer{
+  position:absolute;
+margin: -200px 100px 0px 780px;
+
+}
+
+#holidayregaloscontainer a{
+  text-decoration: none;
+  color: black;
+}
+
+
+  
+
+
+
+#introducingnew{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 50px;
+    width: 100vw;
+    height: 200px;
+    text-align: left;
+    align-items: center;
+
+}
+
+.slider-container {
+    width: 100vw;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+  }
+
+  .slide {
+    width: 100vw;
+    height: 650px;
+    scroll-snap-align: start;
+    display: inline;
+    box-sizing: border-box;
+  }
+  @keyframes scrollAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-100% * 2));     }
+  }
+#banner{
+  border: 40px solid white;
+}
+#newsletter{
+  text-align: left;
+  padding-left: 150px;
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: rgb(33, 33, 33);
+  color: white;
+  width: 100vw;
+  padding-bottom: 30px;
+  }
+
+#n{
+  font-weight:900;
+  font-size: 70px;
+}
+.spam{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 18px;
+}
+#email{
+width: 1000px;
+color: white;
+background-color: rgb(33, 33, 33);
+font-family: 'Space Grotesk', sans-serif;
+border-width: transparent;
+border-style: none;
+font-size: 30px;
+
+}
+
+#suscribir{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: rgb(33, 33, 33);
+  border-width: transparent;
+  border-style: none;
+  font-size: 40px;
+  font-weight: 800;
+  position: absolute;
+  padding-left: 300px;
+  }
+
+ #formbar{
+  color: white;
+  width: 90%;
+  height: 5px;
+ } 
+
+ .byl{
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  position: absolute;
+  padding-bottom: 30px;
+  }
+#ow{
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  padding-top: 20px;
+  }
+
+#bylow{
+  height: 150px;
+  width: 100%;
+  text-align: left;
+  padding-left: 70px;
+  padding-top: 10px;
+  position: relative;
+}
+
+footer{
+  background-color: rgb(238,238,238);
+  width: 100%;
+ 
+}
+
+
+.rrss{
+  height: 20px;
+  text-align: left;
+  padding-left: 3px;
+  
+    
+     }
+
+#derechos{
+  width: 400px;
+  text-align: left;
+  padding-left: 3px;
+  
+}
+#lastfoot{
+  display: flex;
+  padding-top: 70px;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#rrsscontainer{
+  
+  justify-content:left;
+  align-items: left;
+  text-align: left;
+  position: absolute;
+  
+}
+
+#prompt{
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  display: flex;
+ justify-content:right;
+  align-items: right;
+  text-align: right;
+ background-color: rgb(238,238,238);
+  right: 0;
+}
+
+#navbarfooter{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    justify-content: space-between;
+    margin-right: 5px;
+  
+}
+#navbarfooter2{
+  display: none;
+  font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    justify-content: space-between;
+    margin-right: 5px;}
+    #navbarfooter2 a{
+      background-color: rgb(238,238,238);
+      padding: 8px;
+    }
+    
+    #navbarfooter2 a:hover{
+      text-decoration: none;
+    }
+    
+    #navbarfooter2 .submenu a:hover{
+      text-decoration: underline;
+       }
+
+#navbarfooter a{
+  background-color: rgb(238,238,238);
+  padding: 8px;
+}
+
+#navbarfooter a:hover{
+  text-decoration: none;
+}
+
+#navbarfooter .submenu a:hover{
+  text-decoration: underline;
+   }
+.firstline{
+  padding-right: 8px;
+}
+
+#eseur{
+  background-color: rgb(238,238,238);
+  
+  }
+
+#languages{
+  top: -300%;
+}
+
+#countries{
+top: -120%;
+padding-left: 200px; 
+columns: 3;
+column-gap: 0;
+font-size: 12px;
+font-weight: 700;
+
+}
+#linkmobile{
+  display: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  padding-bottom: 30px;
+  font-size: 20px;
+  margin-left: 60px;
+}
+
+
+#holidayregalosup{
+  display: none;
+  margin-left: 20px;
+
+}
+#comprar{
+  display: none;
+  margin-left: 20px;
+  margin-top: -90px;
+
+}
+#comprar a{
+  text-decoration: underline;
+  color: white;
+  font-weight: 700;
+}
+#holidayregalosup a{
+  text-decoration: none;
+  color: black;
+}
+
+#holidayup{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-style: italic;
+  background-color: white;
+  padding-left: 5px;
+  position: absolute;
+  font-weight: bold;
+  
+  
+  
+}
+
+#regalosup{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  background-color: white;
+  width: fit-content;
+  margin-top: 20px;
+  
+  
+}
+#buttoncollapse{
+  display: none;
+}
+
+
+#fiestas{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  background-color: white;
+  width: fit-content;
+  position: fixed;
+  margin-top: -200px;
+  padding: 5px;
+}
+
+#fiestas a{
+  text-decoration: none;
+  color: black;
+}
+#holiday2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-style: italic;
+  background-color: white;
+  padding: 0px 5px 0px 5px;
+  text-align: center;
+  width:fit-content;
+  position: fixed;}
+
+  #holiday2 a{
+    text-decoration: none;
+    color: black;
+  
+  }
+
+#photoquery{
+  display: none;
+}
+#holiday3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  background-color: transparent;
+  padding: 0px 5px 0px 5px;
+  text-align: center;
+  width:fit-content;
+  margin-top: -900px;
+  margin-right: 950px;
+  position: absolute;
+  
+}
+#holiday3 a{
+  text-decoration: none;color: black;
+
+}
+
+#fiestas3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  background-color: transparent;
+  width: fit-content;
+  margin-right:900px ;
+  position: absolute;
+  margin-top: -900px;
+  padding: 5px;
+}
+#fiestas3 a{
+  text-decoration: none;color: black;
+
+}
+
+#comprar2{
+  position: absolute;
+  margin-left: 40px;
+  margin-top: -100px;
+
+}
+#comprar2 a{
+  text-decoration: underline;
+  color: black;
+  font-weight: 700;
+}
+
+#menufooter{
+  display: flex;
+  text-align: left;
+}
+
+#lastfoot{
+  padding-bottom: 30px;
+}
+
+#alternlogo{
+  display: none;
+}
+
+
+
+
+
+@media (max-width: 829px){
+body{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+img{
+  width: 100%;
+  height: 100%;
+
+}
+
+#newsletter{
+  width: 100vw;
+  height: 100%;
+}
+#n{
+  width: 100vw;
+  height: 100%;
+}
+#logo{
+display: none;}
+
+.slider-container img{
+  width: 20vw;
+}
+
+#introducingnew{
+  
+  font-size: 12px;
+}
+
+#linkmobile{
+display: block;
+}
+#comprar{
+  display: block;
+}
+.navbar a {
+  width: fit-content;
+  width: 100%;
+  text-align: left;
+}
+
+.submenu {
+  display: none;
+  width: fit-content;
+}
+
+
+
+#holidayregaloscontainer{
+display: none;
+
+}
+
+#holidayregalosup{
+  display: block;
+}
+
+
+#navbar1 .menu {
+  display: none;
+}
+
+#navbar1 .navbar-toggler {
+  display: block;
+}
+
+#navbar1 .menu.collapsed {
+  display: block;
+}
+
+#navbar1 .menu li {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.navbar-toggler-icon{
+  position: fixed;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  right: 0;
+  bottom:0;
+  border-radius: 30px;
+  
+}
+
+#photochange{
+  display: none;
+}
+#photoquery{
+  display: block;
+}
+
+
+#menufooter{
+  flex-direction: column;
+  
+}
+
+#menufooter li{
+  justify-content: left;
+  text-align: left;
+  align-items: left;
+}
+
+#navbarfooter{
+  display: none;}
+
+  #navbarfooter2{
+    display: block;}
+
+#prompt{
+  display: none;
+}
+.rrss{
+  height: 20px;
+  width: 25px;
+}
+#holidayregalosup{
+  padding-right: 630px;
+
+}
+
+
+
+#iconos {
+  height: 20px;
+  display: flex;
+  ;
+}
+}
+
+@media (min-width: 400px) and (max-width: 830px){
+  #alternlogo{
+    display: block;
+    width: 100px;
+    margin-left: 20px;
+  }
+
+
+  #holidayregalosup{
+    display: none;
+  }
+
+}
