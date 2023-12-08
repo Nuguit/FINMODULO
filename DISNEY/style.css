@@ -1,0 +1,437 @@
+* {
+    margin: 0px;
+   padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-left: 150px;
+}
+
+.logo {
+    height: 50px;
+    padding-top: 2px;}
+    
+
+#logoup{
+display: block; 
+    text-align: center; }
+
+
+img {
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.navbar {
+    width: 100%;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+nav .submenu li a {
+    background-color: rgb(28, 40, 51);
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+
+
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 20px;
+
+}
+
+
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.menu li a:hover {
+    color: rgb(102, 153, 255);
+}
+
+.submenu li a:hover {
+    color: rgb(0, 191, 255);
+}
+
+nav,
+ul {
+    list-style: none;
+    display: flex;
+    height: fit-content;
+    position: relative;
+}
+nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    margin-top: 20px;
+}
+
+nav li:hover>ul {
+    display: block;
+    text-align: left;
+}
+
+.submenu::before {
+    content:""; 
+    position: absolute;
+    top: -20px;
+    left: 30px;
+     width: 0px;
+     height: 0px;
+     border-width: 10px;
+     border-style: solid;
+     border-bottom-color: rgb(28, 40, 51);
+     border-top-color: transparent;
+     border-right-color: transparent;
+     border-left-color: transparent;
+ }
+
+
+h1 {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: lighter;
+    padding-left: 270px;
+    font-size: 35px;
+    color: black;
+}
+
+#maincontent {
+   padding-left: 20px;
+   padding-right: 20px;
+   justify-content: center;
+    
+
+
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+    width: 100%;
+    justify-content: center;
+    
+
+}
+
+.imagen {
+    padding-top: 15px;
+    border-radius: 8px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-bottom: 5px;
+    justify-content: center;
+
+}
+
+.imagen:hover {
+    transform: scale(1.015);
+    transition-duration: 0.2s;
+    box-shadow: 1cm black;
+
+
+}
+
+.titulos {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 16px;
+
+}
+
+#soul:hover {
+    border: 1px solid grey;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.titulos:hover {
+    color: rgb(102, 153, 255);
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#socialmedia {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    margin-top: 150px;
+
+
+}
+
+#followdisney {
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+#socialmediaicons {
+    display: flex;
+    justify-content: center;
+
+}
+
+#downlogobox {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    margin-bottom: 1px;
+
+}
+
+#downlogo {
+    height: 30px;
+
+}
+
+#footerlinks {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 0px;
+    text-align: center;
+    justify-content: space-around;
+
+
+
+}
+
+span {
+    margin-right: 20px;
+
+}
+
+a:hover {
+    
+}
+
+#copyright {
+    
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+}
+
+#triangle3:hover{
+    color: rgb(102, 153, 255);
+    cursor: pointer;
+}
+
+
+
+
+
+
+.menu {
+    list-style: none;
+    justify-content: space-between;
+    
+
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.mi-boton {
+    padding: 15px 80px;
+    font-size: 16px;
+    background-color: rgb(5, 122, 220);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+
+}
+
+.mi-boton:hover {
+    background-color: rgb(3, 106, 192);
+
+}
+
+
+
+
+#vermasbox {
+    display: flex;
+    justify-content: center;
+}
+
+#toystory4 {
+    display: none;
+    
+}
+
+#toystory4:target {
+    display: block;
+    }
+
+.hidden {
+    display: none;
+}
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 44px; 
+    position: fixed;
+    top: 10px;
+    left: 10px; 
+    z-index: 1000;
+}
+
+@media  (max-width:768px) {
+    
+#logoup{
+    display: block;
+    margin: 0 auto;
+}
+
+
+#menu-toggle:checked + .menu-icon + .navbar {
+    display: block;
+}
+
+.menu {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+}
+
+.menu > li {
+    width: 100vw;
+    margin: 0;
+    border-top: 1px solid grey;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu > li:first-child {
+    border-top: none;
+}
+
+.submenu {
+    display: none;
+    width: 100%;
+    margin: 0;
+    
+}
+
+.menu > li:hover .submenu {
+    display: block;
+    background-color: rgb(229, 231, 233 );
+}
+
+.menu-icon {
+    display: block;
+    cursor: pointer;
+}
+.navbar {
+    display: none; 
+    position: fixed;
+    top: 40px; 
+    left: 0px; 
+    width: 100%; 
+    border: 1px solid white; 
+    background-color: rgb(246, 247, 249); 
+    z-index: 999; 
+    box-sizing: border-box;
+    
+}
+
+.navbar ul.menu li {
+    padding: 10px; 
+    border-bottom: 1px solid white; 
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(229, 231, 233) ;
+}
+
+
+.navbar ul.menu li:last-child {
+    border-bottom: none; 
+}
+
+
+
+.navbar ul.menu li a {
+    text-decoration: none; 
+    color: black; 
+    display: block; 
+    padding: 5px; 
+    background-color: rgb(229, 231, 233 );
+}
+
+
+#content{
+  margin: 8px;
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.submenu::before{
+    display: none;
+}
+
+
+
+
+}
+
+    
+
+  
