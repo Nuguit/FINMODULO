@@ -1,0 +1,293 @@
+body{
+    width: 100%;
+      
+   
+}
+html{
+    width: 100%;
+}
+
+#header{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+    padding-top: 10px;
+    }
+
+.firstline{
+ padding-left: 8px; 
+ 
+}
+
+
+.firstlineb{
+padding-right: 15px;
+display:inline-block
+}
+
+#sidebbox{
+justify-content: flex-end;
+  
+}
+
+#sideb{
+    display: flex;
+text-align: right;
+justify-content: flex-end;
+
+
+}
+
+
+#appsbutton{
+    height: 15px;
+    text-decoration: none;
+    }
+
+
+
+
+#buttonbox:hover{
+    border-radius: 25px;
+    background-color: rgb(229, 232, 232 );
+    }
+
+
+
+#configbutton{
+    width: 4px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#central{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+#googleicon{
+    text-align: center;
+    padding-top: 5%;
+    justify-content: center;
+    width: 100%;
+    }
+
+    
+.barrabusqueda{
+    position:relative;
+    padding-top: 6px;
+    height: 50%;
+    text-align: center;
+    width: 100%;
+    
+    
+}
+
+.barra:hover{
+    box-shadow: 2px 2px 2px 0px rgb(213, 219, 219);
+}
+
+.barra {
+    width: 450px;
+    height: 45px;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid rgb(242, 243, 244 );
+    
+    }
+
+    .inputdebarra {
+        position: relative;
+        
+      }
+      
+      
+.findbuttons{
+padding-top: 20px;
+text-align: center;
+justify-content: center;
+
+
+
+
+}
+.botonclick{
+    background-color: rgb(242, 243, 244 );
+    border-color: rgb(242, 243, 244);
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px;
+    margin: 10px;
+    width: 140px;
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+}
+
+.botonclick:hover{
+    border: 0.2px solid rgb(214, 219, 223)
+    
+}
+
+
+
+span a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    }
+
+
+
+#searchbar{
+    display: flex;
+    text-align: center;
+    
+
+}
+
+
+
+#pais{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(242, 243, 244);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    font-size: 15px;
+    width: 100%;
+    
+    
+}
+
+#pie{
+    display: block;
+    flex-wrap: wrap;
+    background-color: rgb(242, 243, 244);
+    border-top: 0.5px solid grey;
+    width:100%;
+    margin: 0;
+       
+
+}
+
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+  
+  
+
+  
+}
+
+#footer a:hover{
+    text-decoration: underline;
+      
+}
+
+#ptc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+        
+}
+#pec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+    position: relative;
+}
+#tres{
+    text-align: center;
+    }
+
+#dropdownapps{
+    background-color: rgb(242, 243, 244 );
+    width: 350px;
+    height: 500px;
+    overflow: scroll;
+        }
+
+    .filas{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+#dropdownapps:hover{
+background-color: rgb(242, 243, 244 );
+}
+
+
+li img{
+    border-radius: 20px;
+    width: 70px;
+    
+}
+
+#btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+#btn-masdegoogle{
+    border: 1px solid black;
+    border-radius: 10px;
+    color: rgb(0, 102, 204 );
+    
+    
+}
+
+#spanmasdegoogle{
+    display: flex;
+   justify-content: center;
+    text-align: center; 
+}
+
+.languages{
+    padding-top: 10px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    
+    @media screen and (max-width: 992px) {
+        body{
+            width: 100%;
+            overflow: scroll;
+        }
+               #pec{flex-direction: row;
+            flex: 100%;
+            padding: 8px;
+
+        }
+        #tres{flex-direction: row;
+            flex: 100%;
+            padding: 8px;
+
+        }
+        #ptc{flex-direction: row;
+            flex: 100%;
+
+        }
+        #googlegif{
+            text-align: center;
+            justify-content: center;
+            width: 400px;
+            padding: 8px;
+        }
+    }
+      
